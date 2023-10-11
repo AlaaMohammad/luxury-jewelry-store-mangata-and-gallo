@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Karla:wght@200;300;400;500;600;700;800&display=swap');
 
+/*----------- Gerneral -------------*/
+
 * {
     font-family: 'Karla', sans-serif;
     margin: 0;
@@ -44,7 +46,7 @@ img {
     width: 100%;
 }
 
-header,section, footer {
+header, section, footer {
     margin: 0 auto;
     overflow: auto;
     margin: 30px 0;
@@ -64,10 +66,14 @@ header,section, footer {
     width: 160px;
 }
 
+/*----------- Header -------------*/
+
 header {
     display: flex;
     justify-content: center;
 }
+
+/*----------- Nav -------------*/
 
 .navbar ul {
     display: flex;
@@ -82,6 +88,8 @@ header {
     margin-right: 5rem;
 }
 
+/*----------- Hero -------------*/
+
 .hero {
     width: 100%;
     height: 80vh;
@@ -94,6 +102,8 @@ header {
     top: 50%;
     left: 5%;
 }
+
+/*----------- Info Section -------------*/
 
 .info-section {
     text-align: center;
@@ -122,11 +132,17 @@ header {
     align-self: start;
 }
 
+/*----------- Footer -------------*/
+
 footer {
     background-color: #DDD9D7;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0px;
+}
+
+footer .logo {
+    padding: 20px 0;
 }
 
 .footer-nav ul {
@@ -139,8 +155,4 @@ footer {
 .footer-nav ul li {
 
     margin: 20px;
-}
-
-footer .logo {
-    padding: 20px 0;
 }
