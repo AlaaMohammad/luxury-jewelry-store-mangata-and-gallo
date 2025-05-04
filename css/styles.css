@@ -50,7 +50,7 @@ header, section, footer {
     margin: 0 auto;
     overflow: auto;
     margin: 30px 0;
-    padding: 0 40px;
+    padding: 0 5%;
 
 }
 
@@ -82,7 +82,7 @@ header {
     margin: 20px;
 }
 
-.nav-item {
+.nav-item  a{
     color: #705B4F;
     list-style: none;
     margin-right: 5rem;
@@ -156,3 +156,4 @@ footer .logo {
 
     margin: 20px;
 }
+
